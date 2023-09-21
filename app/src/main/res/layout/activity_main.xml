@@ -25,7 +25,11 @@
             android:id="@+id/navBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:menu="@menu/navbar"/>
+            app:menu="@menu/navbar"
+            app:itemIconTint="#298d8d"
+            app:itemTextColor="#298d8d"
+            app:itemIconSize="28dp"
+            />
 
     </FrameLayout>
 
