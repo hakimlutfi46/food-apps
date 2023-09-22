@@ -4,22 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SearchFragment"
-    android:gravity="center">
+    android:gravity="top"
+    android:paddingHorizontal="25dp">
 
     <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
+    <EditText
+        android:id="@+id/editText"
+        android:singleLine="true"
+        android:backgroundTint="#DEDEDE"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Search Fragment"
-            android:textColor="#298d8d"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            />
-    </LinearLayout>
+        android:layout_marginTop="25dp"
+        android:minHeight="46dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableStart="@drawable/ic_search"
+        android:drawableTint="#9f9f9f"
+        android:textSize="14sp"
+        android:textColorHint="#9f9f9f"
+        android:paddingHorizontal="16dp"
+        android:hint="Search food items"
+        android:drawablePadding="15dp"/>
 
 </RelativeLayout>
